@@ -1,0 +1,250 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+    font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+a{text-decoration:none;
+
+}
+
+header {
+    height: 90px;
+    display: flex;
+    background-color: #0000002e;
+}
+
+.nav-logo {
+    width: 50%;
+}
+
+.nav-logo img {
+    width: 90px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu {    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-menu li {
+    list-style: none;
+    display: inline;
+    padding: 10px
+}
+
+.seccion-nosotros {
+    padding: 50px 30px;
+}
+
+.nosotros {
+    padding: 20px;
+}
+
+.nosotros h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.nosotros p {
+    text-align: center;
+}
+
+.clasificacion h2 { text-align: center;
+    padding-bottom: 20px;}
+
+.clasificacion p {
+    text-align: center;
+    padding: 0 100px;
+}
+
+.mision_vision {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 30px;
+}
+
+.vision {
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+.mision {
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
+    text-align: center;
+    padding: 10px;
+}
+.seccion-claves h2 {
+    text-align: center;
+}
+
+.claves {
+    padding: 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clave {
+    display: grid;
+    padding: 0 10px;
+    margin: 10px 0;
+    width: 200px;
+    min-width: 100px;
+    max-width: 160px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.procesos {
+    padding: 50px 30px;
+}
+
+.procesos h2 {
+    text-align: center;
+}
+
+.heart-list {
+    list-style: none; /* Eliminar los marcadores de lista por defecto */
+    padding: 0; /* Eliminar el relleno */
+}
+
+.heart-list li::before {
+    content: '♥'; /* Contenido del pseudo-elemento ::before (un corazón) */
+    color: #fb4768; /* Color del corazón (puedes cambiarlo si lo deseas) */
+    font-size: 20px; /* Tamaño de fuente del corazón */
+    margin-right: 5px; /* Espacio entre el corazón y el texto del elemento de lista */
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.makeup-products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #0000009e;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 14px;
+    color: #777;
+}
+
+.product .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #a215fa;
+}
+
+footer {
+    background-color: #ffffff2e;
+}
+
+.footer-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.logo-footer {
+    padding: 10px 0;
+    display: flex;
+    max-width: 400px;
+    min-width: 200px;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-logo {
+    padding: 10px 0;
+    display: flex;
+    max-width: 400px;
+    min-width: 200px;
+    width: 100%;
+    justify-content: center;
+}
+
+.redes-sociales {
+    padding: 10px 0;
+    max-width: 400px;
+    min-width: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.info {
+    padding: 10px 0;
+    max-width: 400px;
+    min-width: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-end {
+    border-top: 1px solid #ffffff9e;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.icon {
+    cursor: pointer;
+    height: auto;
+    width: 100px;
+    transition: all 1s ease-out;
+}
+/* html {
+    width: 100%;
+    height: 100%;
+} */
